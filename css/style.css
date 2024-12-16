@@ -104,14 +104,9 @@ header{
  flex-direction: column;
  align-items: center;
  padding: 80px 0 80px 0;
+ background-color: #FFF;
 }
-.all_coffee_container{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 80px 0 80px 0;
-  background-color:#F4EFED;
-}
+
 .company_tittle{
    text-align: center; 
    font-family:'Playfair Display', Georgia, serif;
@@ -742,6 +737,38 @@ header{
    padding: 30px 0 30px 0;
   }
 
+ /* Shop page*/
+
+ .all_coffee_container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 0 80px 0;
+  background-color: #FFF;
+ }
+ 
+ .all_coffee_tittle{
+    text-align: center; 
+    font-family:'Playfair Display', Georgia, serif;
+    font-weight: 700;
+    color: #000;
+    font-size: 36px;
+    word-spacing: 0.15em;
+    letter-spacing: 0.005em;
+    margin: 0;
+    padding: 0 0 20px 0;
+   }
+   
+   .all_coffee{
+    text-align: center;
+    font-family:'Merriweather', 'Times New Roman', serif;
+    color: #000;
+    font-size: 24px;
+    line-height: 1.7;
+    word-spacing: 0.15em;
+    letter-spacing: 0.02em;
+    padding: 0 0 20px 0;
+   }
 
   .quiz_link{
     display: flex;
